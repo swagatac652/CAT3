@@ -66,6 +66,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         });
 	    </script>
 	
+	dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+dataLayer.push({
+  event: "purchase",
+  ecommerce: {
+    items: [
+     {
+      	item_id: 1,
+	item_name: "Python"
+	affiliation: "Christ University"
+    	currency: "USD",
+    },
+    {
+      	item_id: 2,
+	item_name: "Web Analytics"
+	affiliation: "Christ University"
+    	currency: "USD",
+    }]
+  }
+});
+	
     <title>Course Page</title>
 </head>
 
