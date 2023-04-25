@@ -42,29 +42,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	
 
     <script>
-        $(document).ready(function () {
-            $('#review-slider-content').lightSlider({
-                auto: true,
-                loop: true,
-                responsive: [{
-                        breakpoint: 800,
-                        settings: {
-                            item: 3,
-                            slideMove: 1,
-                            slideMargin: 6,
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            item: 1,
-                            slideMove: 1
-                        }
-                    }
-                ]
-            });
-        });
-	
 	dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
   event: "purchase",
@@ -128,14 +105,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </p>
 
 &emsp;  &emsp;  &emsp;  &emsp;  <button><a href="cart.html" style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
-<button type="button" style="font: bold 24px  Arial; color:green;"><a id="btn1" href="sucess.html">Purchase</a></button><br />
+<button id="btn1" type="button" style="font: bold 24px  Arial; color:green;"><a id="btn1" href="sucess.html">Purchase</a></button><br />
 </br></br>
 <p>
 &emsp;  &emsp;  <img src="2.JPG" width="500" height="200">
 </p>
 
 &emsp;  &emsp;  &emsp;  &emsp;  <button><a href="cart.html" style="font: bold 24px Arial; color:red;">Add-to-cart</a></button> &emsp;  &emsp;  			 
-<button type="button" style="font: bold 24px  Arial; color:green;"><a id="btn2" href="sucess.html">Purchase</a></button><br />
+<button id="btn2" type="button" style="font: bold 24px  Arial; color:green;"><a id="btn2" href="sucess.html">Purchase</a></button><br />
 
 </body>
 
